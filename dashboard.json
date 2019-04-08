@@ -1,6 +1,6 @@
 {
-    "template": "https://raw.githubusercontent.com/ketrics/custom-report-01/master/template.jsx",
+    "template": "https://cdn.jsdelivr.net/gh/ketrics/custom-report-01/template.jsx",
     "components": [
-        "https://raw.githubusercontent.com/ketrics/custom-report-01/master/components/google-pie-chart.js"
+        "https://cdn.jsdelivr.net/gh/ketrics/custom-report-01/components/google-pie-chart.js"
     ]
 }
