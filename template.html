@@ -1,0 +1,35 @@
+<style>
+    .wrapper {
+        margin: 15px;
+        background-color: red;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+</style>
+<div>
+    <img src="https://www.sermecoop.cl/sitio/images/logo.png" alt=""/>
+
+    <div class="wrapper">
+        <div class="row">
+            <div class="column">
+                <google-pie-chart data={data} title="Hello 01" x_serie="name" y_serie="value1" />
+            </div>
+            <div class="column">
+                <google-pie-chart data={data} title="Hello 02" x_serie="name" y_serie="value2" />
+            </div>
+        </div>
+    </div>
+
+</div>

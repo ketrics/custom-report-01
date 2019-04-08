@@ -1,5 +1,5 @@
 {
-    "template": "https://cdn.jsdelivr.net/gh/ketrics/custom-report-01/template.jsx",
+    "template": "https://cdn.jsdelivr.net/gh/ketrics/custom-report-01/template.html",
     "components": [
         "https://cdn.jsdelivr.net/gh/ketrics/custom-report-01/components/google-pie-chart.js"
     ]
